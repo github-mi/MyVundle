@@ -1,5 +1,4 @@
-" 引用自定义的vundle配置文件,存放vimrc的地方(不是固定写法，可自定义)
-" 判断操作系统类型
+" check the type of OS
 if(has('win32') || has('win64'))
     source $VIM/vimfiles/vundle_vimrc
     source $VIM/vimfiles/basic_vimrc
